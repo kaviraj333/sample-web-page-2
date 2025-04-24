@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color:white;
+    background-color:black;
+  }
+  h1, h2 {
+    margin-bottom: 10px;
+    
+  }
+  p {
+    margin-bottom: 15px;
+
+  }
+  button{
+    text-decoration: none;
+  }
+  /*----------------------------------------- Header------------------------------------------------------------- */
+  .header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://i.pinimg.com/736x/a0/62/6c/a0626c8cee2168eb9a77f63a1cb06c77.jpg') center/cover no-repeat;
+
+}
+.head-one{
+  padding-right: 38%;
+}
+.head-three{
+  padding-right: 20%;
+}
+.head-two{
+  padding-left: 25px;
+}
+.header-content{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 330px ;
+    background-color: #e09f3e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  /* --------------------------------------------Info section ------------------------------------------------*/
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 20px;
+  }
+  
+  .info-box {
+    width: 50%;
+    background-color: #222;
+    padding-left: 20px;
+    /* padding: 50%; */
+  }
+  .info{
+    width: 50%;
+    background-color: #230;
+    padding-left: 20px;
+    
+    /* padding: 50%; */
+  }
+  .btn-small{
+    display: inline-block;
+    padding: 10px 20px;
+    margin:15px;
+    background-color:#e09f3e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .one{
+    text-decoration: underline;
+    text-decoration-color: #e09f3e;
+    text-underline-offset: 15px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+  }
+  .g{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 50%; */
+    width: 50%;
+    margin-left: 120px;
+  }
+  .h{
+    padding-left: 150px;
+  }
+  .i{
+    padding-left: 180px;
+    margin-top: -25px;
+  }
+  .two{
+    text-decoration: underline;
+    text-decoration-color: #e09f3e;
+    text-underline-offset: 15px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 150px;
+    padding-left: 10px;
+    
+  }
+  .btn-small{
+    margin-left: 170px;
+  }
+  /*--------------------------------- WORKSHOP Section------------------------------------------------------ */
+  .workshop-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Make it full viewport height */
+    background-color:lightgray; 
+}
+
+.workshop-content {
+    max-width: 400px; 
+    padding: 20px;
+}
+
+.workshop-content h2 {
+    font-size: 2.5em; 
+    margin-bottom: 20px;
+}
+
+.workshop-content p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.three{
+    text-decoration: underline;
+    text-decoration-color: #e09f3e;
+    text-underline-offset: 10px;
+    color: black;
+}
+.a{
+
+    color: black; 
+}
+.book-seat-btn {
+    display: inline-block;
+    background-color: #e09f3e; 
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.workshop-image {
+    width: 75%;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    margin-left: 20px;
+    min-height: 100vh;
+    
+}
+.ab{
+
+}
+
+.workshop-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* -----------------------------------Studio -----------------------------------------------------*/
+
+.studio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:#222;; 
+}
+
+.studio-content {
+    max-width: 400px; /* Adjust as needed */
+    padding: 20px;
+}
+
+.studio-content h2 {
+    font-size: 2.5em; /* Larger heading */
+    margin-bottom: 20px;
+}
+
+.studio-content p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.four{
+    text-decoration: underline;
+    text-decoration-color: #e09f3e;
+    text-underline-offset: 10px;
+    color: white;
+}
+.b{
+
+    color: white; 
+}
+.studio-btn {
+    display: inline-block;
+    background-color: #e09f3e; 
+    color: black;[]
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.studio-image {
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    margin-left: 20px;
+    min-height: 100vh;
+}
+
+.workshop-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*-------------------------------------- Art for sale --------------------------------------------*/
+/* .container {
+    width: 80%;
+    max-width: 900px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff; 
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.more-products {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+} */
+
+/* Basic styling for the container */
+.container {
+    width: 100%; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  
+  
+  /* Styling for the title */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the product grid */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));           
+    gap: 15px;
+  }
+  
+  /* Styling for individual product items */
+  .product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: 75%;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .product p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Styling for the "More Products" button */
+  .more-products {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color:#e09f3e;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  /*---------------------------------------------- Students -----------------------------------------------*/
+  .sample{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://media.istockphoto.com/id/639487044/photo/hands-of-a-potter-creating-an-earthen-jar.jpg?s=612x612&w=0&k=20&c=gCVqR1YvUT6qZhazjpNNGzlpgh_sQQJNzXNsh0ZZEh0=') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    position: relative;
+   
+
+}
+.testimonial-card {
+  position: absolute;
+    width: 700px; /* Adjust as needed */
+    background-color: white; /* Or your desired background color */
+    border: 1px solid #ddd; /* Optional border */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-family: sans-serif; /* Or your desired font */
+    margin-top: 650px;
+  }
+  .j{
+    width: 70%;
+    margin-left: 30px;
+  }
+  
+  .testimonial-card h2 {
+    font-size: 1.5em; /* Adjust as needed */
+    margin-bottom: 10px;
+    color: #333; /* Or your desired heading color */
+  }
+  
+  .testimonial-card .quote-icon {
+    font-size: 2em; /* Adjust as needed */
+    color: black; /* Or your desired quote icon color */
+    margin-bottom: 10px;
+    background-color: #e09f3e;
+    border-radius:120px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 580px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left:25px;
+  }
+  
+  .testimonial-card p {
+    font-size: 0.9em; /* Adjust as needed */
+    line-height: 1.5; /* Adjust as needed */
+    color: #666; /* Or your desired text color */
+  }
+  .testimonial-card h2{
+    text-decoration: underline;
+    text-decoration-color: #e09f3e;
+    text-underline-offset: 10px;
+    margin-left: 20px;
+  }
+
+  
+  .testimonial-card .author {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: right;
+    color: #333; /* Or your desired author color */
+    margin-right: 540px;
+  }
+  
+  /* Optional styling for the divider line */
+  /* .testimonial-card h2::before {
+    content: "";
+    display: block;
+    width: 30px; 
+    height: 2px;
+    background-color: #f90; 
+    margin-bottom: 5px;
+  } */
+   /*-------------------------------------------------- footer ----------------------------------------------------*/
+
+
+
+.newsletter-container {
+    text-align: center;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent dark background */
+    border-radius: 8px;
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Limit width for better readability */
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    width: 60%; /* Adjust as needed */
+    max-width: 300px; /* Limit width */
+}
+
+button {
+    background-color: #ffc107; /* Yellow button */
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffca2b; /* Slightly lighter yellow on hover */
+}
+.news{
+  text-decoration: underline;
+  text-decoration-color: #e09f3e;
+  text-underline-offset: 10px;
+}
